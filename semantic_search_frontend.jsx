@@ -10,7 +10,7 @@ export default function SemanticSearch() {
   const [error, setError] = useState('');
   const [fileInput, setFileInput] = useState('');
 
-  const API_BASE = 'http://localhost:8000';
+  const API_BASE = 'https://great-question.onrender.com';
 
   // Sample interview data for demo
   const SAMPLE_INTERVIEWS = [
